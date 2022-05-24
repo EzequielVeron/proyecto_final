@@ -1,0 +1,14 @@
+@import "../variables/variables";
+@import "./mixin";
+
+p{
+    .fuentes {
+        font-family: $tipo-de-letra;
+        font-style: inherit;
+        font-weight: normal;
+        font-size: 25px;
+    
+    }
+}
+
+

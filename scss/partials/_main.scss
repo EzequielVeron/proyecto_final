@@ -1,0 +1,45 @@
+@import "../sass2/extend";
+@import "../variables/variables";
+
+
+.main_nosotros{
+    h2{
+        text-align: center;
+        padding-top: 10px;
+    }
+    .caja_foto_socia{
+    @include flex-centro
+    }
+
+    .texto__contacto{
+    display: flex;
+    text-align: right;
+    
+}                   
+
+}
+
+.main_productos{
+    display: flex;
+    flex-direction: row;
+    
+
+    .caja_producto{
+        padding-left: 1%;
+        width: 20px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+        
+    }
+
+    .texto_producto{
+        display: flex;
+        flex-direction: row;
+        margin-left: 16%;
+        margin-bottom: 5px;
+    }
+
+}
+
+
+

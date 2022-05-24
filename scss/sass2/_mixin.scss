@@ -1,0 +1,47 @@
+@import "../variables/variables";
+
+
+
+@mixin flex-centro{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@mixin main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+@mixin titulo 
+    {
+        background: linear-gradient(to right, #f317b1dc, #c116e4, #f313e0dc);
+        text-align: center;
+        color: aliceblue;
+    }
+
+
+@mixin pie_pagina {
+    @extend .ancho;
+        background:#535252ec;
+        color:white;
+        padding-top: 20px;
+        padding:40px;
+}
+
+@mixin fondo_footer{
+    width:100%;
+        background:#535252ec;
+        color:white;
+        padding-top: 20px;
+        padding:40px;
+}
+
+
+
+
+

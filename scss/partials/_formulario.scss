@@ -1,0 +1,19 @@
+@import "../variables/variables";
+@import "../sass2/mixin";
+
+
+.mi__formulario{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .dueño__pyme{
+        width: 80%;
+        margin-left: 20px;
+    }
+}
+
+.subtitulo_formulario{
+    text-align: center;
+    padding-bottom: 30px;
+}
