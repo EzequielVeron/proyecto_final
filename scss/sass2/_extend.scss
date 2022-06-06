@@ -12,3 +12,83 @@ p{
 }
 
 
+//====GRIDS DE RECETAS===//
+
+
+.subtitulo_recetas{
+    text-align: center;
+    font-family: $tipo-de-letra;
+    background-color: $gradient;
+    background:$gradient;
+    color: #f0f8ff;
+    margin-bottom:0;
+    
+}
+
+
+.container_grid{
+    display: grid;
+    grid-template-columns: repeat(4,15%);
+    grid-template-rows: repeat(1,500px);
+    grid-template-areas: "receta_01 receta_02 receta_03 receta_04"
+                        "receta_01 receta_02 receta_03 receta_04"
+                    ;
+    padding-left: 10%;
+    grid-gap: 120px;
+    background-color: #fadba0;
+    margin-top: 0;
+    margin-bottom: 0%;
+    
+    .receta_01{
+        grid-area: receta_01;
+        
+    }
+    
+    .receta_02{
+        grid-area: receta_02;
+        
+    }
+    
+    .receta_03{
+        grid-area: receta_03;
+    }
+    
+    .receta_04{
+        grid-area: receta_04;
+    }
+    
+    .imagen_receta{
+    &:hover   
+    {
+                opacity: 0.4;
+                filter: alpha(opacity=100);
+    }
+    }
+
+}
+
+
+
+//=====================RECETA 01====================================//
+
+
+.main_recetas{
+    display: flex;
+    flex-direction: row;
+    
+
+
+    .caja_imagen__receta{
+        @include caja_hija;
+        margin-top: 0;
+        
+    }
+        
+
+    .texto_receta{
+        display: flex;
+        flex-direction: row;
+        margin-left: 16%;
+        margin-bottom: 5px;
+    }
+}
