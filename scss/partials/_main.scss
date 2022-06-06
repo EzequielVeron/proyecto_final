@@ -2,33 +2,59 @@
 @import "../variables/variables";
 
 
+
+
+//=======MAIN EN SECCION DE NOSOTROS=========//
 .main_nosotros{
-    h2{
-        text-align: center;
-        padding-top: 10px;
-    }
+    background: $gradient;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    
     .caja_foto_socia{
     @include flex-centro
     }
 
+    h2{
+        text-align: center;
+        padding-top: 10px;
+        background: $gradient;
+        font-family: $tipo-de-letra;
+        color: $letra;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+    }
+
     .texto__contacto{
     display: flex;
-    text-align: right;
+    text-align: center;
+    width: 99%;
+    padding: 0;
+    margin-bottom: 0;
+    
+        
+    
+    
     
 }                   
 
 }
 
+
+
+//======MAIN DE SECCION PRODUCTOS===========//
 .main_productos{
     display: flex;
     flex-direction: row;
     
 
     .caja_producto{
+        flex-wrap: wrap;
         padding-left: 1%;
-        width: 20px;
+        width: 1%;
         margin-bottom: 5px;
-        margin-top: 15px;
+        margin-top: 0px;
         
     }
 

@@ -1,11 +1,12 @@
 @import "../variables/variables";
 @import "../sass2/mixin";
 
-
+//========SECCION DE CONTACTO=================/
 .mi__formulario{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background: #8ff5a8f5;
 
     .dueño__pyme{
         width: 80%;
@@ -15,5 +16,10 @@
 
 .subtitulo_formulario{
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    background: $gradient;
+    font-family: $tipo-de-letra;
+    color: $letra;
+    margin-bottom: 0;
+    padding-top: 10px;
 }

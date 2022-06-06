@@ -18,22 +18,23 @@ footer {
         display:flex;
         justify-content: space-between;
     }
-
     .columna1{
-    
+        
         max-width:400px;
+        h3{
+            padding-left: 18px;
+        }
         p{
             margin-top: 10px;
             font-size: 14px;
             color: azure;
             margin-top: 20px;
+            
         }
     }
-
     .columna2{
         max-width: 400px;
     }
-
     .row{
         margin-top: 20px;
         display: flex;
@@ -45,13 +46,11 @@ footer {
                 background-color: #f0f8ff36;}
         }
         
-
         label{
             margin-top: 10px;
             margin-left: 20px;
         }
     }
-
     .columna3{
         width: 400px;
         .row2{
@@ -62,8 +61,6 @@ footer {
             
             }
         }
-    }
-
-
+} 
 
 }
